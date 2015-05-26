@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.testing.mineprecious.bukutabungan.Settings">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_delete"
+        android:onClick="DeleteDB"
+        android:id="@+id/btDelDB"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_export"
+        android:onClick="ExportDB"
+        android:id="@+id/btExport"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/btDelDB"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_import"
+        android:onClick="ImportDB"
+        android:id="@+id/btImport"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/btExport"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

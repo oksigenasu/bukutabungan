@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Buku Tabungan</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="nominal">Nominal</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_transaksi">Input Transaksi</string>
+
+    <string name="jenis">Jenis Transaksi:</string>
+    <string name="credit">Credit</string>
+    <string name="debit">Debit</string>
+    <string name="tanggal">Tanggal:</string>
+    <string name="notes">Catatan:</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+    <string name="title_activity_rekap">Rekap</string>
+
+    <string name="action_search">Cari</string>
+
+    <string name="menu_add">Add</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="setting_delete">Delete Database</string>
+    <string name="setting_export">Export Database</string>
+    <string name="setting_import">Import Database</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bulanan">Rekap Bulan:</string>
+    <string name="title_activity_settings">Settings</string>
+
+</resources>
